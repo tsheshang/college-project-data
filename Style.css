@@ -1,0 +1,73 @@
+#formContainer {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+#studentForm input,
+#studentForm select,
+#studentForm button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#studentForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  display: block;
+}
+
+#studentForm input[type="radio"],
+#studentForm input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+#studentForm button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#studentForm button:hover {
+  background-color: #0056b3;
+}
+
+#outputContainer {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  background-color: #e6ffe6;
+}
+
+.studentCard {
+  border: 1px solid #28a745;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+
+  #formContainer,
+  #outputContainer {
+    width: 90%;
+    padding: 15px;
+  }
+}
